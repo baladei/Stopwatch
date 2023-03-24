@@ -1,0 +1,55 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+
+.App h1 {
+    color: red;
+}
+
+.timer {
+    display: flex;
+    font-size: 60px;
+    color: turquoise;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    min-width: 90px;
+}
+
+.separetor {
+    color: #9999;
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: #9999
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1)
+}
