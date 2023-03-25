@@ -53,3 +53,12 @@
 .btn:hover {
     transform: scale(1.1)
 }
+
+#start {
+    background-color: turquoise;
+    color: #fff
+}
+
+#resume, #pause {
+    display: none;
+}
